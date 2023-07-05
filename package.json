@@ -23,7 +23,7 @@
     "mailgun-js": "^0.22.0",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.16",
-    "qs": "^6.9.1"
+    "qs": "^6.9.7"
   },
   "devDependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
