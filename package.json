@@ -1,0 +1,37 @@
+{
+  "name": "steff-agency-admin",
+  "version": "1.0.0",
+  "description": "Admin panel for steff.agency",
+  "author": "Giovanni La Perna giovannilaperna@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "lambda": "netlify-lambda serve api --port=34567"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/moment": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "cookie-universal-nuxt": "^2.0.19",
+    "encoding": "^0.1.12",
+    "faunadb": "^2.10.0",
+    "lodash.filter": "^4.6.0",
+    "mailgun-js": "^0.22.0",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.16",
+    "qs": "^6.9.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/google-analytics": "^2.2.2",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "netlify-lambda": "^1.6.3",
+    "prettier": "^1.16.4"
+  }
+}

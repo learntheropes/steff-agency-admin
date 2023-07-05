@@ -1,0 +1,5 @@
+[build]
+  publish = "dist"
+  command = "netlify-lambda build api && nuxt build"
+  functions = "./functions"
+
